@@ -106,7 +106,9 @@ NOTE: Electron.NET requires node.js and npm so make sure to have them installed.
 
 https://nodejs.org/en/
 
-NOTE 2:  Sometimes I get an "is being used by another process" error when attempting to start from Visual Studio.  I have not been able to narrow it down but it seems to be a known issue with the package.  You can easily tell by trying to delete the obj or bin folders and getting file lock errors.  If it happens, look in Task Manager for any running instances of `electron.exe` .  Kill them and it should resolve.
+NOTE 2:  To start the Asteroids.Blazor.Electron project, I usually have to select `Asteriods.Blazor.Electron` in thw Run Selector next to the Project Startup Selector.
+
+NOTE 3:  Sometimes I get an "is being used by another process" error when attempting to start from Visual Studio.  I have not been able to narrow it down but it seems to be a known issue with the package.  You can easily tell by trying to delete the obj or bin folders and getting file lock errors.  If it happens, look in Task Manager for any running instances of `electron.exe` .  Kill them and it should resolve.
 
 ## Blazor MAUI Notes
 
