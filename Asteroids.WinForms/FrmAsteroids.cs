@@ -56,7 +56,7 @@ namespace Asteroids.WinForms
             });
         }
 
-        private void frmAsteroids_Closed(object sender, EventArgs e)
+        private void frmAsteroids_FormClosed(object sender, FormClosedEventArgs e)
         {
             _controller.Dispose();
         }

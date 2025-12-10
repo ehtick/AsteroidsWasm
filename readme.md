@@ -1,4 +1,4 @@
-# Asteroids in .NET Framework, .NET 9, WinUI3, Maui, Electron, AvaloniaUI, and Blazor WebAssembly
+# Asteroids in .NET Framework, .NET 10, WPF, WinForms, WinUI3, Maui, Electron, AvaloniaUI, and Blazor WebAssembly/Server
 
 ## Live Demo: https://aesalazar.github.io/AsteroidsWasm/
 
@@ -52,17 +52,17 @@ Performance is getting fairly close between the different platforms as they cont
 
 Another interesting comparison is between .net 8 and .net framewwork 4.8 when running the WinForms and WPF.  The performance difference is very dramatic with the framework versions being almost unplayable.
 
-## .NET 9 Notes
+## .NET 10 Notes
 
-All .NET 9 applications including Blazor are tested on version `9.0.100` (runtime `9.0.0`) of the SDK so remember to have it installed. You can check what versions are installed (you can have multiple) by entering in a command prompt:
+All .NET 10 applications including Blazor are tested on version `10.0.101` (runtime `10.0.1`) of the SDK so remember to have it installed. You can check what versions are installed (you can have multiple) by entering in a command prompt:
 
 `dotnet --info` or `dotnet --version`
 
 You can install the latest via `Winget` using:
 
-`winget install dotnet-sdk-9`
+`winget install dotnet-sdk-10`
 
-To run all projects in this solution requires the installation of Visual Studio 2022 or the latest Visual Studio Code.
+To run all projects in this solution requires the installation of Visual Studio 2022/2026 or the latest Visual Studio Code.
 
 ## Blazor Notes
 
