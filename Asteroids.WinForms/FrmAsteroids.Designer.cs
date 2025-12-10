@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel;
+using System.Windows.Forms;
 
 namespace Asteroids.WinForms
 {
@@ -59,7 +60,7 @@ namespace Asteroids.WinForms
             this.Name = "FrmAsteroids";
             this.Text = "Asteroids";
             this.Activated += new System.EventHandler(this.frmAsteroids_Activated);
-            this.Closed += new System.EventHandler(this.frmAsteroids_Closed);
+            this.FormClosed += new FormClosedEventHandler(this.frmAsteroids_FormClosed);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.frmAsteroids_KeyDown);
             this.KeyUp += new System.Windows.Forms.KeyEventHandler(this.frmAsteroids_KeyUp);
             this.Resize += new System.EventHandler(this.frmAsteroids_Resize);
